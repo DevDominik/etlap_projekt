@@ -3,13 +3,18 @@ body {
     background-color: rgb(230,220,220);
 }
 
+nav a[href=""]{
+    color: grey;
+    cursor: default;
+}
+
 nav{
     background-color: rgb(215,200,200);
     border: 2px black solid;
-    border-radius: 10px;
+    border-radius: 6px;
     width: 95%;
-    height: 50px;
-    margin: auto;
+    padding: 1% 0px;
+    margin: 1% auto;
 }
 
 nav a{
@@ -20,14 +25,31 @@ nav a{
     transition: 0.25s;
 }
 
-nav a:hover{
-    background-color: rgb(220, 210, 210);
-    border: 2px rgb(70,70,70) solid;
+nav a[href^="../"]:hover{
     color: red;
-    border-radius: 10px;
+    font-size: 25px;
+}
+
+/*etelek.html és italok.html*/
+
+.kategoria > :first-child{
+    margin: 4% 0px 1.5% 0px;
 }
 
 .kategoria > div{
     text-align: center;
     font-size: 35px;
+}
+
+.item{
+    border: 3px black solid;
+    border-radius: 6px;
+    margin: 1% 2.5%;
+    padding: 1% 0.5%;
+    display: flex;
+}
+
+.item *{
+    display: inline-block;
+    margin: 0px 5% 0px 0.5%;
 }

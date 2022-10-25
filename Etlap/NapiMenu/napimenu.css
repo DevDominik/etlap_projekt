@@ -1,16 +1,32 @@
 #etlap{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5% auto 0px auto;
     width: 95%;
-    margin-top: 5%;
     text-align: center;
     border: 3px ridge rgb(90,60,60);
     background-color: white;
+    display: flex;
+}
+
+#cimek{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    width: auto;
+    font-size: 25px;
+    margin: 0px;
+    display: flex;
+}
+
+#cimek *{
+    margin: 12.5% 1%;
+    font-weight: bold;
+}
+
+#menuk{
+    overflow-x: hidden;
 }
 
 .sor{
     overflow-x: scroll;
-    overflow-y: hidden;
     display: flex;
     margin: 1%;
     background-color: white;
@@ -27,14 +43,6 @@
     transition: 0.5s;
 }
 
-.sor div:first-child{
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    width: auto;
-    font-size: 25px;
-    margin: 0px 0px !important;
-}
-
 .sor > div > *{
     display: inline-block;
 }
@@ -43,12 +51,6 @@
     transition: 0.5s;
     border: 3px ridge rgb(40,120,250) !important;
 }
-
-/*
-.kivalasztott-sor {
-
-}
-*/
 
 #adatok{
     width: 300px ! important;
@@ -71,6 +73,7 @@
     border: 2px ridge rgb(80,80,80);
     background-color: rgb(220,220,200);
     margin-bottom: 3px;
+    margin: 2%;
 }
 
 :root {
