@@ -48,17 +48,17 @@
 }
 
 .kivalasztott {
-    transition: 0.5s;
+    transition: 0.3s;
     border: 3px ridge rgb(40,120,250) !important;
 }
 
 #adatok{
-    width: 300px ! important;
+    width: 300px;
 }
 
 #etlap img{
     width: 300px;
-    height: 175px;
+    height: 180px;
 }
 
 #etlap p{
@@ -72,12 +72,7 @@
     height: 80px;
     border: 2px ridge rgb(80,80,80);
     background-color: rgb(220,220,200);
-    margin-bottom: 3px;
-    margin: 2%;
-}
-
-:root {
-    --szamlalo: 0;
+    margin: 2% 2% 3px 2%;
 }
 
 #osszeg {
@@ -86,19 +81,24 @@
 }
 
 #fizetendo {
-    margin-left: 82.5%;
-    margin-right: 2%;
-    margin-top: 20px;
+    margin: 20px 2% 0px 82.5%;
     padding-top: 1px;
     padding-bottom: 1px;
+    padding: 1px 0p;
     background-color: rgb(190,180,180);
     color: rgb(70,70,70);
     border: 2px ridge rgb(70,50,50);
-    border-radius: 7px;
+    border-radius: 6px;
 }
 
 #fizetendo p {
     margin-left: 10px;
     width: 90%;
     font-size: 115%;
+}
+
+@media screen and (max-width: 600px) {
+    #fizetendo {
+        margin-left: 2%;
+    }
 }

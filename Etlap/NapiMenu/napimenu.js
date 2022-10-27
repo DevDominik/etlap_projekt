@@ -11,7 +11,7 @@ function feltolt(lista, sor) {
         elem.onclick = function(){kivalaszt()};
 
         let kep = document.createElement("img");
-        kep.src = "../Images/Etelek/" + etel.kep + ".png";
+        kep.src = `../Images/Etelek/${etel.kep}.png`;
         elem.appendChild(kep);
 
         let adatokDiv = document.createElement("div");
