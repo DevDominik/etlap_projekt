@@ -1,0 +1,104 @@
+#etlap{
+    margin: 5% auto 0px auto;
+    width: 95%;
+    text-align: center;
+    border: 3px ridge rgb(90,60,60);
+    background-color: white;
+    display: flex;
+}
+
+#cimek{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    width: auto;
+    font-size: 25px;
+    margin: 0px;
+    display: flex;
+}
+
+#cimek *{
+    margin: 12.5% 1%;
+    font-weight: bold;
+}
+
+#menuk{
+    overflow-x: hidden;
+}
+
+.sor{
+    overflow-x: scroll;
+    display: flex;
+    margin: 1%;
+    background-color: white;
+}
+
+.sor > div{
+    border: 3px ridge rgb(80, 80, 80);
+    border-radius: 6px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    background-color: white;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.sor > div > *{
+    display: inline-block;
+}
+
+.kivalasztott {
+    transition: 0.3s;
+    border: 3px ridge rgb(40,120,250) !important;
+}
+
+#adatok{
+    width: 300px;
+}
+
+#etlap img{
+    width: 300px;
+    height: 180px;
+}
+
+#etlap p{
+    font-size: 20px;
+    margin: 12px;
+    color: rgb(70,70,70);
+}
+
+.adatok {
+    width: 95%;
+    height: 80px;
+    border: 2px ridge rgb(80,80,80);
+    background-color: rgb(220,220,200);
+    margin: 2% 2% 3px 2%;
+}
+
+#osszeg {
+    color: rgb(52, 59, 153);
+    text-decoration: underline;
+}
+
+#fizetendo {
+    margin: 20px 2% 0px 82.5%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding: 1px 0p;
+    background-color: rgb(190,180,180);
+    color: rgb(70,70,70);
+    border: 2px ridge rgb(70,50,50);
+    border-radius: 6px;
+}
+
+#fizetendo p {
+    margin-left: 10px;
+    width: 90%;
+    font-size: 115%;
+}
+
+@media screen and (max-width: 600px) {
+    #fizetendo {
+        margin-left: 2%;
+    }
+}

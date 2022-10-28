@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="napimenu.css">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Napi menü</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../Etelek/etelek.html">Ételek</a>
+            <a href="../Italok/italok.html">Italok</a>
+            <a href="">Napi menü</a>
+            <a href="../Kapcsolat/kapcsolat.html">Kapcsolat</a>
+        </nav>
+    </header>
+    <main>
+        <div id="etlap">
+            <div id="cimek">
+                <div>Desszert</div>
+                <div>Főétel</div>
+                <div>Leves</div>
+            </div>
+            <div id="menuk">
+                <div class="sor" id="leves-sor"></div>
+                <div class="sor" id="foetel-sor"></div>
+                <div class="sor" id="desszert-sor"></div>
+            </div>
+        </div>
+
+        <div id="fizetendo">
+            <p>Fizetendő: <span id="osszeg">0</span> Ft</p>
+        </div>
+    </main>
+    <footer>
+        <p>&#169; 2022 Copyright Étterem neve</p>
+    </footer>
+    <script type="module" src="napimenu.js"></script>
+</body>
+
+</html>
