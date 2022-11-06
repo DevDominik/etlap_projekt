@@ -1,158 +1,53 @@
 export const uditok = [
     {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
+        nev: "Coca cola",
+        kep: "udito1",
+        ar: "300"
     },
     {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
+        nev: "Pepsi",
+        kep: "udito2",
+        ar: "300"
     },
     {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "udito",
-        ar: "1000"
+        nev: "Sprite",
+        kep: "udito3",
+        ar: "400"
     },
 ];
 
 export const alkoholosItalok = [
     {
-        nev: "Név",
-        kep: "alkoholos",
+        nev: "Epres koktél",
+        kep: "alkohol1",
         ar: "1000"
     },
     {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
+        nev: "Meggyes koktél",
+        kep: "alkohol2",
+        ar: "900"
     },
     {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "alkoholos",
-        ar: "1000"
+        nev: "Vörösbor",
+        kep: "alkohol3",
+        ar: "1200"
     },
 ];
 
 export const kavek = [
     {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
+        nev: "Espresso",
+        kep: "kave1",
+        ar: "400"
     },
     {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
+        nev: "Cappucino",
+        kep: "kave2",
+        ar: "350"
     },
     {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
-    },
-    {
-        nev: "Név",
-        kep: "kave",
-        ar: "1000"
+        nev: "Arabica kávé",
+        kep: "kave3",
+        ar: "500"
     },
 ];

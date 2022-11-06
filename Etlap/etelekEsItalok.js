@@ -15,7 +15,7 @@ export function feltolt (lista, sor, kepMappa) {
         adatokDiv.appendChild(nev);
 
         let ar = document.createElement("p");
-        ar.innerText = `Ár: ${termek.ar} Ft`;
+        ar.innerText = `${termek.ar} Ft`;
         adatokDiv.appendChild(ar);
         
         elem.append(adatokDiv);
