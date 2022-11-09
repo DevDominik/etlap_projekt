@@ -3,6 +3,7 @@ import { levesek, foetelek, desszertek } from "../etelAdatok.js"
 const levesSor = document.getElementById("leves-sor");
 const foetelSor = document.getElementById("foetel-sor");
 const desszertSor = document.getElementById("desszert-sor");
+const cimek = document.getElementById("cimek");
 const osszegSpan = document.getElementById("osszeg");
 
 function feltolt(lista, sor) {
@@ -51,10 +52,11 @@ function kivalaszt(){
     osszegSpan.innerText = osszeg;
 
     let sor = elem.parentElement;
+    let hanyadikSor = Array.from(sor.parentElement.children).indexOf(sor);
     if (sor.querySelector('.kivalasztott') != null) {
-        sor.classList.add('kivalasztott-sor')
+        cimek.children[hanyadikSor].classList.add('kivalasztott-sor')
     } else {
-        sor.classList.remove('kivalasztott-sor')
+        cimek.children[hanyadikSor].classList.remove('kivalasztott-sor')
     }
 }
 

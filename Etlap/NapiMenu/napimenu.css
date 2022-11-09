@@ -14,6 +14,7 @@
     font-size: 25px;
     margin: 0px;
     display: flex;
+    flex-direction: row-reverse;
 }
 
 #cimek *{
@@ -50,6 +51,10 @@
 .kivalasztott {
     transition: 0.3s;
     border: 3px ridge rgb(40,120,250) !important;
+}
+
+.kivalasztott-sor {
+    text-decoration: underline rgb(40,120,250) 4px;
 }
 
 #adatok{
@@ -100,5 +105,8 @@
 @media screen and (max-width: 600px) {
     #fizetendo {
         margin-left: 2%;
+    }
+    #cimek * {
+        margin-left: 10px;
     }
 }
