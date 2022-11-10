@@ -52,6 +52,11 @@ footer {
     }
 }
 
+#logo{
+    display: block;
+    margin-left: 40%;
+}
+
 /*etelek.html és italok.html*/
 
 #etelek, #italok{
